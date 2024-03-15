@@ -1,0 +1,2130 @@
+repo_name: ctavolazzi/opendata.cern.ch
+report_id: cd09317efe9cf00fd6bdc0f1d894bf15
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-15T02:03:36+00:00'
+requested_by: psaiz
+provider: github
+branch: master
+detected_tools_count: 147
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch
+  detection_source: Repo Metadata
+- name: Jinja
+  description: Full featured template engine for Python
+  website_url: https://palletsprojects.com/p/jinja/
+  version: 2.11.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: Mako
+  description: Template library written in Python
+  website_url: https://github.com/zzzeek/mako
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/3583/default_43e3ee00dcc48a40f6fcba33551e4f5a99a10537.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Diego Rodriguez
+  last_updated_on: 2020-11-27 16:14:37.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Diego Rodriguez
+  last_updated_on: 2020-11-27 16:14:37.000000000 Z
+- name: Swift
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Jiri Kuncar
+  last_updated_on: 2016-03-27 12:23:16.000000000 Z
+- name: Flask
+  description: A microframework for Python based on Werkzeug, Jinja 2 and good intentions
+  website_url: http://flask.pocoo.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1001/default_6d109315b60108628b7cd3e159b84645c31ef0e2.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Jiri Kuncar
+  last_updated_on: 2016-03-27 12:23:16.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/cernopendata/modules/theme/assets/semantic-ui/templates/search/ResultsGrid.container.jsx
+  detection_source: cernopendata/modules/theme/assets/semantic-ui/templates/search/ResultsGrid.container.jsx
+  last_updated_by: Marco Vidal García
+  last_updated_on: 2021-01-28 13:40:41.000000000 Z
+- name: Tornado
+  description: A Python web framework and asynchronous networking library, originally
+    developed at FriendFeed
+  website_url: http://www.tornadoweb.org/
+  version: 5.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1002/tornado.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 08:40:26.000000000 Z
+- name: Celery
+  description: Distributed task queue
+  website_url: http://www.celeryproject.org/
+  version: 5.0.4
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1075/celery.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 08:40:26.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  version: '14.8'
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2023-07-07 11:40:59.000000000 Z
+- name: RabbitMQ
+  description: Open source multiprotocol messaging broker
+  website_url: http://www.rabbitmq.com/
+  version: '3.12'
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1061/default_df93e9a30d27519161b39d8c1d5c223c1642d187.jpg
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2023-07-07 11:40:59.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  version: 3.5.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: docker-compose.yml
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2023-07-07 11:40:59.000000000 Z
+- name: SQLAlchemy
+  description: The Python SQL Toolkit and Object Relational Mapper
+  website_url: http://www.sqlalchemy.org/
+  version: 1.3.24
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/1839/q5uAkmy7.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/.github/codecov.yml
+  detection_source: ".github/codecov.yml"
+  last_updated_by: Audrius Mecionis
+  last_updated_on: 2020-11-11 17:06:39.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/.github/workflows/ci.yml
+  detection_source: ".github/workflows/ci.yml"
+  last_updated_by: Audrius Mecionis
+  last_updated_on: 2020-11-11 17:06:39.000000000 Z
+- name: NGINX
+  description: A high performance free open source web server powering busiest sites
+    on the Internet.
+  website_url: http://nginx.org
+  version: '1.22'
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Jiri Kuncar
+  last_updated_on: 2016-03-27 12:23:16.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Diego Rodriguez
+  last_updated_on: 2020-11-27 16:14:37.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Diego Rodriguez
+  last_updated_on: 2020-11-27 16:14:37.000000000 Z
+- name: Sentry
+  description: See performance issues, fix errors faster, and optimize code health.
+  website_url: https://sentry.io/welcome/?utm_source=stackshare&utm_medium=link&utm_campaign=profile
+  open_source: true
+  hosted_saas: true
+  category: Monitoring
+  sub_category: Exception Monitoring
+  image_url: https://img.stackshare.io/service/191/default_9262326592c97828a2a4299dec085a3674dd05f4.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 08:40:26.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Diego Rodriguez
+  last_updated_on: 2020-11-27 16:14:37.000000000 Z
+- name: uWSGI
+  description: uWSGI application server container
+  website_url: https://github.com/unbit/uwsgi
+  version: 2.0.21
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Server Interface
+  image_url: https://img.stackshare.io/service/1838/uwsgi.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Diego Rodriguez
+  last_updated_on: 2020-11-27 16:14:37.000000000 Z
+- name: Bitdeli
+  description: Build Your Own Analytics
+  website_url: https://bitdeli.com
+  open_source: false
+  hosted_saas: true
+  category: Analytics
+  sub_category: Custom Analytics
+  image_url: https://img.stackshare.io/service/4/81d15a06ca33a8d04a5130889a50a908.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Diego Rodriguez
+  last_updated_on: 2020-11-27 16:14:37.000000000 Z
+- name: Pandoc
+  description: A universal document converter
+  website_url: https://pandoc.org/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: File Conversion
+  image_url: https://img.stackshare.io/service/2330/no-img-open-source.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 08:40:26.000000000 Z
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Jiri Kuncar
+  last_updated_on: 2016-03-27 12:23:16.000000000 Z
+- name: IPython
+  description: A command shell for interactive computing in multiple programming languages
+  website_url: http://ipython.org/index.html
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Shells
+  image_url: https://img.stackshare.io/service/4477/820a0bb9a44fe5a1d640993ab1e6fd84_400x400.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Pablo Saiz
+  last_updated_on: 2023-10-11 09:50:07.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch
+  detection_source: Repo Metadata
+- name: Werkzeug
+  website_url: https://palletsprojects.com/p/werkzeug/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/11076/iwoLyNPI_normal.jpg
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 08:40:26.000000000 Z
+- name: Flask-Breadcrumbs
+  description: Flask-Breadcrumbs adds support for generating site breadcrumb navigation
+  package_url: https://pypi.org/project/Flask-Breadcrumbs
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: Flask-Caching
+  description: Adds caching support to your Flask application
+  package_url: https://pypi.org/project/Flask-Caching
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20332/default_1a060bd30ca72545354e1c3d92e9b224f6c0e5e2.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: Flask-CeleryExt
+  description: Flask-CeleryExt is a simple integration layer between Celery and Flask
+  package_url: https://pypi.org/project/Flask-CeleryExt
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: Flask-Cors
+  description: A Flask extension adding a decorator for CORS support
+  package_url: https://pypi.org/project/Flask-Cors
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19977/default_29192d68c64b1a3be468b1b73c2a129fc390c4f4.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: Flask-Limiter
+  description: Rate limiting for flask applications
+  package_url: https://pypi.org/project/Flask-Limiter
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: Flask-Login
+  description: User session management for Flask
+  package_url: https://pypi.org/project/Flask-Login
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20091/default_5d939a1a27846185eb6de438be4bf77b84b4ee87.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: Flask-Mail
+  description: Flask extension for sending email
+  package_url: https://pypi.org/project/Flask-Mail
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: Flask-Menu
+  description: Flask-Menu is a Flask extension that adds support for generating menus
+  package_url: https://pypi.org/project/Flask-Menu
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: Flask-SQLAlchemy
+  description: Adds SQLAlchemy support to your Flask application
+  package_url: https://pypi.org/project/Flask-SQLAlchemy
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19941/default_aacb529ceff756b62765790d8d6787a041d514ff.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: Flask-WTF
+  description: Simple integration of Flask and WTForms
+  package_url: https://pypi.org/project/Flask-WTF
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20060/default_eed7014d799b4e750aea7c37ab970b4b62c0cf42.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: MarkupSafe
+  description: Safely add untrusted strings to HTML/XML markup
+  package_url: https://pypi.org/project/MarkupSafe
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19945/default_0b0a94e1bdf3e64deeccb23892ca2335bdc30e4f.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: PyJWT
+  description: JSON Web Token implementation in Python
+  package_url: https://pypi.org/project/PyJWT
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19883/default_3863c7bb51d307217c188e059f67ca417c51efe3.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Diego Rodriguez
+  last_updated_on: 2020-11-27 16:14:37.000000000 Z
+- name: Pygments
+  description: Pygments is a syntax highlighting package written in Python
+  package_url: https://pypi.org/project/Pygments
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19858/default_4d761b2257a1435539d6dc92346974d9f1d55c70.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: SQLAlchemy-Utils
+  description: Various utility functions for SQLAlchemy
+  package_url: https://pypi.org/project/SQLAlchemy-Utils
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20114/default_b1f776bac109bd478e1df92299923bb3e844a9d2.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: WTForms
+  description: A flexible forms validation and rendering library for Python web development
+  package_url: https://pypi.org/project/WTForms
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20615/default_7382161db21ae3cf11739d4242ed42a7278e7489.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 08:40:26.000000000 Z
+- name: alembic
+  description: A database migration tool for SQLAlchemy
+  package_url: https://pypi.org/project/alembic
+  version: 1.6.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19961/default_61e35171bd9c0e5c5b88b2e4221ca242576ad8c0.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: amqp
+  description: Low-level AMQP client for Python
+  package_url: https://pypi.org/project/amqp
+  version: 5.0.6
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20296/default_fbb28b4e332d257da7e7f1277d3ce073b5270511.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: arrow
+  description: Better dates &amp; times for Python
+  package_url: https://pypi.org/project/arrow
+  version: 1.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19891/default_87fc2af3f2409064833512bb6fc5b04443a2e6aa.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: attrs
+  description: Classes Without Boilerplate
+  package_url: https://pypi.org/project/attrs
+  version: 21.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19857/default_4a8a8fdc10130068bf295812b98e9b72fb42fe70.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: autosemver
+  description: Tools to handle automatic semantic versioning in python
+  package_url: https://pypi.org/project/autosemver
+  version: 0.5.5
+  license: GPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: backcall
+  description: Specifications for callback functions passed in to an API
+  package_url: https://pypi.org/project/backcall
+  version: 0.2.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 08:40:26.000000000 Z
+- name: billiard
+  description: Python multiprocessing fork with improvements and bugfixes
+  package_url: https://pypi.org/project/billiard
+  version: 3.6.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20470/default_54107e01f42ee7fb9e6c385c975ec134753aae0a.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: bleach
+  description: An easy safelist-based HTML-sanitizing tool
+  package_url: https://pypi.org/project/bleach
+  version: 3.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20045/default_b0b684477aefb2da4c92a4bafd91d26e16511cd1.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: blinker
+  description: Fast, simple object-to-object and broadcast signaling
+  package_url: https://pypi.org/project/blinker
+  version: '1.4'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20273/default_847617f8273bac4dd5921370b0684f29c3397a68.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 08:40:26.000000000 Z
+- name: cached-property
+  description: A decorator for caching properties in classes
+  package_url: https://pypi.org/project/cached-property
+  version: 1.5.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20005/default_87268cab0d3a3b3acf3aa0576d4b114b8e4c2521.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: cchardet
+  description: CChardet is high speed universal character encoding detector
+  package_url: https://pypi.org/project/cchardet
+  version: 2.1.7
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20235/default_cb6acd0ec3f2884b905de7c1ca3a23418f37ebb3.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: certifi
+  description: Python package for providing Mozilla's CA Bundle
+  package_url: https://pypi.org/project/certifi
+  version: 2021.5.30
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19849/default_75c38a39b9f0062814489e2ec2cbfca0ca15d9ba.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+  vulnerabilities:
+  - name: Removal of e-Tugra root certificate
+    cve_id: CVE-2023-37920
+    cve_url: https://github.com/advisories/GHSA-xqr8-7jwr-rhp7
+    detected_date: Jul 26
+    severity: high
+    first_patched: 2023.7.22
+  - name: Certifi removing TrustCor root certificate
+    cve_id: CVE-2022-23491
+    cve_url: https://github.com/advisories/GHSA-43fp-rhv2-5gv8
+    detected_date: Dec 8
+    severity: moderate
+    first_patched: 2022.12.07
+- name: cffi
+  description: Foreign Function Interface for Python calling C code
+  package_url: https://pypi.org/project/cffi
+  version: 1.14.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19909/default_67f813d4aac73d024261bcfded6ef2b918e384a0.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: chardet
+  description: Universal encoding detector for Python 2 and 3
+  package_url: https://pypi.org/project/chardet
+  version: 4.0.0
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19856/default_4a8a8fdc10130068bf295812b98e9b72fb42fe70.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: click
+  description: Composable command line interface toolkit
+  package_url: https://pypi.org/project/click
+  version: 7.1.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19830/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: click-default-group
+  description: Extends click.Group to invoke a command without explicit subcommand
+    name
+  package_url: https://pypi.org/project/click-default-group
+  version: 1.2.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: click-plugins
+  description: An extension module for click to enable registering CLI commands via
+    setuptools entry-points
+  package_url: https://pypi.org/project/click-plugins
+  version: 1.1.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20361/default_a54cbb457d7aac7ab53484c3473848dbdd84d806.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: cryptography
+  description: Cryptography is a package which provides cryptographic recipes and
+    primitives to Python developers
+  package_url: https://pypi.org/project/cryptography
+  version: 3.4.7
+  license: BSD-3-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19850/default_db2ab2702f70e20c272f6ce65251108fb2b8f1ea.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+  vulnerabilities:
+  - name: Vulnerable OpenSSL included in cryptography wheels
+    cve_id: CVE-2023-0286
+    cve_url: https://github.com/advisories/GHSA-x4qr-2fvf-3mr5
+    detected_date: Feb 9
+    severity: high
+    first_patched: 39.0.1
+  - name: Python Cryptography package vulnerable to Bleichenbacher timing oracle attack
+    cve_id: CVE-2023-50782
+    cve_url: https://github.com/advisories/GHSA-3ww4-gg4f-jr7f
+    detected_date: Feb 6
+    severity: high
+    first_patched: 42.0.0
+  - name: cryptography vulnerable to NULL-dereference when loading PKCS7 certificates
+    cve_id: CVE-2023-49083
+    cve_url: https://github.com/advisories/GHSA-jfhm-5ghh-2f97
+    detected_date: Nov 29
+    severity: moderate
+    first_patched: 41.0.6
+  - name: Cipher.update_into can corrupt memory if passed an immutable python object
+      as the outbuf
+    cve_id: CVE-2023-23931
+    cve_url: https://github.com/advisories/GHSA-w7pp-m8wf-vj6r
+    detected_date: Feb 8
+    severity: moderate
+    first_patched: 39.0.1
+  - name: Null pointer dereference in PKCS12 parsing
+    cve_id: CVE-2024-0727
+    cve_url: https://github.com/advisories/GHSA-9v9h-cgj8-h64p
+    detected_date: Feb 17
+    severity: moderate
+    first_patched: 42.0.2
+  - name: Vulnerable OpenSSL included in cryptography wheels
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-v8gr-m533-ghj9
+    detected_date: Sep 22
+    severity: low
+    first_patched: 41.0.4
+  - name: Vulnerable OpenSSL included in cryptography wheels
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-5cpq-8wj7-hf2v
+    detected_date: Jun 3
+    severity: low
+    first_patched: 41.0.0
+  - name: pyca/cryptography's wheels include vulnerable OpenSSL
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-jm77-qphf-c4w8
+    detected_date: Aug 2
+    severity: low
+    first_patched: 41.0.3
+- name: decorator
+  description: Decorators for Humans
+  package_url: https://pypi.org/project/decorator
+  version: 5.0.9
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19911/default_bc82f0b22ca8fd942e21c317967f4ab61f43eb2c.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: defusedxml
+  description: XML bomb protection for Python stdlib modules
+  package_url: https://pypi.org/project/defusedxml
+  version: 0.7.1
+  license: Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20210/default_6796c4086c025d18cdc673750b208b846d8e0914.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: dnspython
+  description: DNS toolkit
+  package_url: https://pypi.org/project/dnspython
+  version: 2.1.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20249/default_47b8ee8db82e43d9eef35923435bd8cc855f3a1b.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Pablo Saiz
+  last_updated_on: 2023-10-11 09:50:07.000000000 Z
+- name: dulwich
+  description: Python Git Library
+  package_url: https://pypi.org/project/dulwich
+  version: 0.19.16
+  license: GPL-3.0-or-later,GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20334/default_1a060bd30ca72545354e1c3d92e9b224f6c0e5e2.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: email-validator
+  description: A robust email syntax and deliverability validation library for Python
+    2.x/3.x
+  package_url: https://pypi.org/project/email-validator
+  version: 1.1.3
+  license: CC0-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: entrypoints
+  description: Discover and load entry points from installed packages
+  package_url: https://pypi.org/project/entrypoints
+  version: '0.3'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20424/default_6d9e48c73a51a5ed50a36bba10e7dc73dd24c660.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: flask-talisman
+  description: HTTP security headers for Flask
+  package_url: https://pypi.org/project/flask-talisman
+  version: 0.5.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: fs
+  description: Python's filesystem abstraction layer
+  package_url: https://pypi.org/project/fs
+  version: 0.5.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20101/default_029b9bbfb6be2cd34bebeda5b8e1e80a1d22441c.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Diego Rodriguez
+  last_updated_on: 2020-11-27 16:14:37.000000000 Z
+- name: ftfy
+  description: Fixes some problems with Unicode text after the fact
+  package_url: https://pypi.org/project/ftfy
+  version: 4.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20650/default_422cfa802834b2f78f74508cdc2c26b9544a79eb.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 08:40:26.000000000 Z
+- name: future
+  description: Clean single-source support for Python 3 and 2
+  package_url: https://pypi.org/project/future
+  version: 0.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19839/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 08:40:26.000000000 Z
+  vulnerabilities:
+  - name: Python Charmers Future denial of service vulnerability
+    cve_id: CVE-2022-40899
+    cve_url: https://github.com/advisories/GHSA-v3c5-jqr6-7qm8
+    detected_date: Jan 5
+    severity: high
+    first_patched: 0.18.3
+- name: html5lib
+  description: HTML parser based on the WHATWG HTML specification
+  package_url: https://pypi.org/project/html5lib
+  version: '1.1'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19936/default_63c8e7696ded615c51302c06e54b0d0c8ae9af3f.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 08:40:26.000000000 Z
+- name: idna
+  description: Internationalized Domain Names in Applications
+  package_url: https://pypi.org/project/idna
+  version: '2.10'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19863/default_f24e00e4cb7620e436f9d06e0305070e1335922a.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 08:40:26.000000000 Z
+- name: importlib-metadata
+  description: Read metadata from Python packages
+  package_url: https://pypi.org/project/importlib-metadata
+  version: 4.6.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20000/default_7c419d5d5f0cfad7886b95266eae7ba305cedacf.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: invenio-accounts
+  description: Invenio user management and authentication
+  package_url: https://pypi.org/project/invenio-accounts
+  version: 1.4.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Pablo Saiz
+  last_updated_on: 2023-10-11 09:50:07.000000000 Z
+- name: invenio-assets
+  description: Media assets management for Invenio
+  package_url: https://pypi.org/project/invenio-assets
+  version: 1.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Pablo Saiz
+  last_updated_on: 2023-10-11 09:50:07.000000000 Z
+- name: invenio-base
+  description: Base package for building Invenio application factories
+  package_url: https://pypi.org/project/invenio-base
+  version: 1.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Pablo Saiz
+  last_updated_on: 2023-10-11 09:50:07.000000000 Z
+- name: invenio-db
+  description: Database management for Invenio
+  package_url: https://pypi.org/project/invenio-db
+  version: 1.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Pablo Saiz
+  last_updated_on: 2023-10-11 09:50:07.000000000 Z
+- name: invenio-files-rest
+  description: Files download/upload REST API similar to S3 for Invenio
+  package_url: https://pypi.org/project/invenio-files-rest
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production-local-forks.txt
+  last_updated_by: Diego Rodriguez
+  last_updated_on: 2020-11-27 16:14:37.000000000 Z
+- name: invenio-formatter
+  description: Jinja utilities for Invenio
+  package_url: https://pypi.org/project/invenio-formatter
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Pablo Saiz
+  last_updated_on: 2023-10-11 09:50:07.000000000 Z
+- name: invenio-i18n
+  description: Invenio internationalization module
+  package_url: https://pypi.org/project/invenio-i18n
+  version: 1.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Pablo Saiz
+  last_updated_on: 2023-10-11 09:50:07.000000000 Z
+- name: invenio-indexer
+  description: Record indexer for Invenio
+  package_url: https://pypi.org/project/invenio-indexer
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Pablo Saiz
+  last_updated_on: 2023-10-11 09:50:07.000000000 Z
+- name: invenio-jsonschemas
+  description: Invenio module for building and serving JSONSchemas
+  package_url: https://pypi.org/project/invenio-jsonschemas
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Pablo Saiz
+  last_updated_on: 2023-10-11 09:50:07.000000000 Z
+- name: invenio-pidstore
+  description: Invenio module that stores and registers persistent identifiers
+  package_url: https://pypi.org/project/invenio-pidstore
+  version: 1.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20733/default_a1230263c1022e7a5f1ab77d48a7703cf2c2878e.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Pablo Saiz
+  last_updated_on: 2023-10-11 09:50:07.000000000 Z
+- name: invenio-records
+  description: Invenio-Records is a metadata storage module
+  package_url: https://pypi.org/project/invenio-records
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Pablo Saiz
+  last_updated_on: 2023-10-11 09:50:07.000000000 Z
+- name: invenio-records-rest
+  description: REST API for invenio-records
+  package_url: https://pypi.org/project/invenio-records-rest
+  version: 1.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Pablo Saiz
+  last_updated_on: 2023-10-11 09:50:07.000000000 Z
+- name: invenio-rest
+  description: REST API module for Invenio
+  package_url: https://pypi.org/project/invenio-rest
+  version: 1.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Pablo Saiz
+  last_updated_on: 2023-10-11 09:50:07.000000000 Z
+- name: invenio-search
+  description: Invenio module for information retrieval
+  package_url: https://pypi.org/project/invenio-search
+  version: 1.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Pablo Saiz
+  last_updated_on: 2023-10-11 09:50:07.000000000 Z
+- name: itsdangerous
+  description: Various helpers to pass data to untrusted environments and back
+  package_url: https://pypi.org/project/itsdangerous
+  version: 1.1.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19989/default_b1f1fc9c4c59a78443018e01395203ba8c61dcde.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 08:40:26.000000000 Z
+- name: jedi
+  description: An autocompletion tool for Python that can be used for text editors
+  package_url: https://pypi.org/project/jedi
+  version: 0.17.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20260/default_9a53068260c70b2274df0967716480e7e3f74b0d.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2023-02-02 15:42:15.000000000 Z
+- name: jsmin
+  description: JavaScript minifier
+  package_url: https://pypi.org/project/jsmin
+  version: 2.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 08:40:26.000000000 Z
+- name: jsonpatch
+  description: Apply JSON-Patches
+  package_url: https://pypi.org/project/jsonpatch
+  version: '1.32'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20389/default_dbae17f97e8212cfa7ac5c2981eb06a9bf0f7b40.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: jsonpointer
+  description: Identify specific nodes in a JSON document
+  package_url: https://pypi.org/project/jsonpointer
+  version: '2.1'
+  license: Zed
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: jsonref
+  description: An implementation of JSON Reference for Python
+  package_url: https://pypi.org/project/jsonref
+  version: '0.2'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20440/default_78aad9a94d92008f2956553201795662c93dc175.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: jsonschema
+  description: An implementation of JSON Schema validation for Python
+  package_url: https://pypi.org/project/jsonschema
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19854/default_3fbfa1d88b4408e903227ac391490e8efb8dea58.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: jupyter-client
+  description: Jupyter protocol implementation and client libraries
+  package_url: https://pypi.org/project/jupyter-client
+  version: 6.1.12
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20352/default_f465c24287ef1189cebf97fef20e50d0bbc5623d.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: jupyter-core
+  description: Jupyter core package
+  package_url: https://pypi.org/project/jupyter-core
+  version: 4.7.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20703/default_49f208ff144f55afc8c1c08f01bcb1eef2f5bb23.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+  vulnerabilities:
+  - name: Execution with Unnecessary Privileges in JupyterApp
+    cve_id: CVE-2022-39286
+    cve_url: https://github.com/advisories/GHSA-m678-f26j-3hrp
+    detected_date: Oct 27
+    severity: high
+    first_patched: 4.11.2
+- name: kombu
+  description: Messaging library for Python
+  package_url: https://pypi.org/project/kombu
+  version: 5.1.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20085/default_36085c16346155862c5c1303e8a0a70416453533.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: limits
+  description: Rate limiting utilities
+  package_url: https://pypi.org/project/limits
+  version: 1.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 08:40:26.000000000 Z
+- name: lxml
+  description: Powerful and Pythonic XML processing library combining libxml2/libxslt
+    with the ElementTree API
+  package_url: https://pypi.org/project/lxml
+  version: 4.6.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19835/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+  vulnerabilities:
+  - name: lxml's HTML Cleaner allows crafted and SVG embedded scripts to pass through
+    cve_id: CVE-2021-43818
+    cve_url: https://github.com/advisories/GHSA-55x5-fj6c-h6m8
+    detected_date: Dec 14
+    severity: high
+    first_patched: 4.6.5
+  - name: lxml NULL Pointer Dereference allows attackers to cause a denial of service
+    cve_id: CVE-2022-2309
+    cve_url: https://github.com/advisories/GHSA-wrxv-2j5q-m38w
+    detected_date: Jul 7
+    severity: moderate
+    first_patched: 4.9.1
+- name: marshmallow
+  description: A lightweight library for converting complex datatypes to and from
+    native Python datatypes
+  package_url: https://pypi.org/project/marshmallow
+  version: 3.12.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19893/default_f716e4bc541a9eb6e3f5b7a20d7c35355075b0b4.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: maxminddb
+  description: Reader for the MaxMind DB format
+  package_url: https://pypi.org/project/maxminddb
+  version: 2.0.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 08:40:26.000000000 Z
+- name: mistune
+  description: The fastest markdown parser in pure Python
+  package_url: https://pypi.org/project/mistune
+  version: 0.8.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20077/default_1b6ee2407cdedc6ad8878ee707164428880e399a.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 08:40:26.000000000 Z
+- name: msgpack
+  description: MessagePack
+  package_url: https://pypi.org/project/msgpack
+  version: 1.0.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19934/default_63c8e7696ded615c51302c06e54b0d0c8ae9af3f.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: nbconvert
+  description: Converting Jupyter Notebooks
+  package_url: https://pypi.org/project/nbconvert
+  version: 5.6.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20059/default_07febc56eb57b6d4c91eb3ad11874d5d88882ab0.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 08:40:26.000000000 Z
+  vulnerabilities:
+  - name: nbconvert vulnerable to cross-site scripting (XSS) via multiple exploit
+      paths
+    cve_id: CVE-2021-32862
+    cve_url: https://github.com/advisories/GHSA-9jmq-rx5f-8jwq
+    detected_date: Aug 11
+    severity: moderate
+    first_patched: 6.5.1
+- name: nbformat
+  description: The Jupyter Notebook format
+  package_url: https://pypi.org/project/nbformat
+  version: 5.1.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20035/default_a3692729f5b4ca7eb94218522ed4260bba4a5c15.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: node-semver
+  description: Port of node-semver
+  package_url: https://pypi.org/project/node-semver
+  version: 0.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: packaging
+  description: Core utilities for Python packages
+  package_url: https://pypi.org/project/packaging
+  version: '20.9'
+  license: BSD-3-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19894/default_f716e4bc541a9eb6e3f5b7a20d7c35355075b0b4.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: pandocfilters
+  description: Utilities for writing pandoc filters in python
+  package_url: https://pypi.org/project/pandocfilters
+  version: 1.4.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20528/default_1977a1f74deaf220f3f454ab642f7526a744ed5f.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 08:40:26.000000000 Z
+- name: parso
+  description: A Python Parser
+  package_url: https://pypi.org/project/parso
+  version: 0.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20216/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2023-02-02 16:48:15.000000000 Z
+- name: passlib
+  description: Comprehensive password hashing framework supporting over 30 schemes
+  package_url: https://pypi.org/project/passlib
+  version: 1.7.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19992/default_aa5b3e77340c2bb80cd8e6a59cd82909abcdcd63.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 08:40:26.000000000 Z
+- name: pexpect
+  description: Pexpect allows easy control of interactive console applications
+  package_url: https://pypi.org/project/pexpect
+  version: 4.8.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20078/default_1b6ee2407cdedc6ad8878ee707164428880e399a.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 08:40:26.000000000 Z
+- name: pickleshare
+  description: Tiny 'shelve'-like database with concurrency support
+  package_url: https://pypi.org/project/pickleshare
+  version: 0.7.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20603/default_705055e61b43e314c99bd16582ed1fac9638127e.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 08:40:26.000000000 Z
+- name: pluggy
+  description: Plugin and hook calling mechanisms for python
+  package_url: https://pypi.org/project/pluggy
+  version: 0.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20041/default_77eeab9aff24a2723c1f19fed32966a15b17d874.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 08:40:26.000000000 Z
+- name: prompt-toolkit
+  description: Library for building powerful interactive command lines in Python
+  package_url: https://pypi.org/project/prompt-toolkit
+  version: 3.0.19
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20821/default_807bb6c1af3ee7076c92bf3b4deb3e13b204d369.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: psycopg2-binary
+  description: Psycopg2 - Python-PostgreSQL Database Adapter
+  package_url: https://pypi.org/project/psycopg2-binary
+  version: 2.9.1
+  license: BSD-3-Clause-Attribution
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: ptyprocess
+  description: Run a subprocess in a pseudo terminal
+  package_url: https://pypi.org/project/ptyprocess
+  version: 0.7.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20391/default_ec7f908dc4ac3533950df7d8e371292c0bdc3812.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: pycparser
+  description: C parser in Python
+  package_url: https://pypi.org/project/pycparser
+  version: '2.20'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20072/default_d7fc4eabe57370d13c2a8ad2f7f6bb876c96c66d.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2023-02-02 16:48:15.000000000 Z
+- name: pymdown-extensions
+  description: Extension pack for Python Markdown
+  package_url: https://pypi.org/project/pymdown-extensions
+  version: '8.2'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20736/default_d7016f3b81d6dea370b4e255c96d7e3aa7e34373.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+  vulnerabilities:
+  - name: Any file can be included with the pymdown-snippets extension
+    cve_id: CVE-2023-32309
+    cve_url: https://github.com/advisories/GHSA-jh85-wwv9-24hv
+    detected_date: May 16
+    severity: high
+    first_patched: '10.0'
+- name: pyparsing
+  description: Python parsing module
+  package_url: https://pypi.org/project/pyparsing
+  version: 2.4.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19881/default_2270bfab784e3d2c2d999d26b11ee478a9dad238.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2023-02-02 16:48:15.000000000 Z
+- name: pyrsistent
+  description: Persistent/Functional/Immutable data structures
+  package_url: https://pypi.org/project/pyrsistent
+  version: 0.17.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20112/default_07c33e3fe9188a5efef46b09a8d6468a52dce7cb.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 08:40:26.000000000 Z
+- name: python-dateutil
+  description: Extensions to the standard Python datetime module
+  package_url: https://pypi.org/project/python-dateutil
+  version: 2.8.2
+  license: NRL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19833/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Pablo Saiz
+  last_updated_on: 2023-10-11 09:50:07.000000000 Z
+- name: python-editor
+  description: Programmatically open an editor, capture the result
+  package_url: https://pypi.org/project/python-editor
+  version: 1.0.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Pablo Saiz
+  last_updated_on: 2023-10-11 09:50:07.000000000 Z
+- name: python-slugify
+  description: A Python Slugify application that handles Unicode
+  package_url: https://pypi.org/project/python-slugify
+  version: 5.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19986/default_aa331bbc48e2faa54aa26e08880b772595f833b8.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Pablo Saiz
+  last_updated_on: 2023-10-11 09:50:07.000000000 Z
+- name: pytz
+  description: World timezone definitions, modern and historical
+  package_url: https://pypi.org/project/pytz
+  version: '2021.1'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19841/default_bb711fa267b2329ed689711a5adb7d9e74610b20.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: pyzmq
+  description: Python bindings for 0MQ
+  package_url: https://pypi.org/project/pyzmq
+  version: 22.1.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19913/default_37434feaacace26053e41d6e4802560af16ebe44.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: raven
+  description: Raven is a client for Sentry
+  package_url: https://pypi.org/project/raven
+  version: 6.10.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20028/default_fd02050783f95269bfcc5c4d11f1c75dd423cd1d.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 08:40:26.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.25.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+  vulnerabilities:
+  - name: Unintended leak of Proxy-Authorization header in requests
+    cve_id: CVE-2023-32681
+    cve_url: https://github.com/advisories/GHSA-j8r2-6x86-q33q
+    detected_date: May 23
+    severity: moderate
+    first_patched: 2.31.0
+- name: simplejson
+  description: Simple, fast, extensible JSON encoder/decoder for Python
+  package_url: https://pypi.org/project/simplejson
+  version: 3.17.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19859/default_4a8a8fdc10130068bf295812b98e9b72fb42fe70.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: simplekv
+  description: A key-value storage for binary data, support many backends
+  package_url: https://pypi.org/project/simplekv
+  version: 0.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 08:40:26.000000000 Z
+- name: six
+  description: Python 2 and 3 compatibility utilities
+  package_url: https://pypi.org/project/six
+  version: 1.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Diego Rodriguez
+  last_updated_on: 2020-11-27 16:14:37.000000000 Z
+- name: speaklater
+  description: Implements a lazy string for python useful for use with gettext
+  package_url: https://pypi.org/project/speaklater
+  version: '1.3'
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 08:40:26.000000000 Z
+- name: testpath
+  description: Test utilities for code working with files and commands
+  package_url: https://pypi.org/project/testpath
+  version: 0.5.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: text-unidecode
+  description: The most basic Text::Unidecode port
+  package_url: https://pypi.org/project/text-unidecode
+  version: '1.3'
+  license: Artistic-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: traitlets
+  description: Traitlets Python config system
+  package_url: https://pypi.org/project/traitlets
+  version: 4.3.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20029/default_73018c8841403fdd7d8f629d056cba8f938c5589.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 08:40:26.000000000 Z
+- name: typing-extensions
+  description: Backported and Experimental Type Hints for Python 3.5+
+  package_url: https://pypi.org/project/typing-extensions
+  version: 3.10.0
+  license: Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19875/default_2270bfab784e3d2c2d999d26b11ee478a9dad238.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: uritools
+  description: RFC 3986 compliant
+  package_url: https://pypi.org/project/uritools
+  version: 3.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20784/default_0d4127c0fd46812116030c2186ec9e7dfaee7f21.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+- name: urllib3
+  description: HTTP library with thread-safe connection pooling
+  package_url: https://pypi.org/project/urllib3
+  version: 1.26.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19842/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
+  vulnerabilities:
+  - name: urllib3's request body not stripped after redirect from 303 status changes
+      request method to GET
+    cve_id: CVE-2023-45803
+    cve_url: https://github.com/advisories/GHSA-g4mx-q9vg-27p4
+    detected_date: Oct 18
+    severity: moderate
+    first_patched: 1.26.18
+  - name: "`Cookie` HTTP header isn't stripped on cross-origin redirects"
+    cve_id: CVE-2023-43804
+    cve_url: https://github.com/advisories/GHSA-v845-jxx5-vc9f
+    detected_date: Oct 3
+    severity: moderate
+    first_patched: 1.26.17
+- name: vine
+  description: Promises, promises, promises
+  package_url: https://pypi.org/project/vine
+  version: 5.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 08:40:26.000000000 Z
+- name: wcwidth
+  description: Measures number of Terminal column cells of wide-character codes
+  package_url: https://pypi.org/project/wcwidth
+  version: 0.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20026/default_77bb3e5ea95c1543fd636eba30e7257b80fbd4f6.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 08:40:26.000000000 Z
+- name: webargs
+  description: Declarative parsing and validation of HTTP request objects
+  package_url: https://pypi.org/project/webargs
+  version: 5.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20341/default_3670ab404b4eee78239483be316d65defac12ad1.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 08:40:26.000000000 Z
+- name: webencodings
+  description: Character encoding aliases for legacy web content
+  package_url: https://pypi.org/project/webencodings
+  version: 0.5.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20327/default_1342a7e78c3c34f58715077849cd487ffddd263d.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 08:40:26.000000000 Z
+- name: zipp
+  description: Backport of pathlib-compatible object wrapper for zip files
+  package_url: https://pypi.org/project/zipp
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20247/default_47b8ee8db82e43d9eef35923435bd8cc855f3a1b.png
+  detection_source_url: https://github.com/ctavolazzi/opendata.cern.ch/blob/master/requirements-production.txt
+  detection_source: requirements-production.txt
+  last_updated_by: Tibor Šimko
+  last_updated_on: 2021-06-28 10:01:12.000000000 Z
